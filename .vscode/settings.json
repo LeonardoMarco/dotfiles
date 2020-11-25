@@ -1,0 +1,54 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "workbench.startupEditor": "newUntitledFile",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "files.exclude": {
+        "**/.git": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        "**/.cache": true
+    },
+    "search.exclude": {
+        "**/.venv": true,
+        "**/.git": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        "**/.cache": true,
+        "tags": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "python.linting.flake8Enabled": true,
+    "go.languageServerExperimentalFeatures": {
+        "format": true,
+        "diagnostics": true,
+        "documentLink": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.tabSize": 2
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
+}
